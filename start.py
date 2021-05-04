@@ -8,3 +8,4 @@ import json
 data = pd.read_json('https://base-covid19.pt/export3.json', orient='index')
 
 print(data.head())
+
