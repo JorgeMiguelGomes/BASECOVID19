@@ -28,4 +28,6 @@ for col_name in col_names_to_time:
 data["publicationDate"] = pd.to_datetime(data["publicationDate"])
 data["signingDate"] = pd.to_datetime(data["signingDate"])
 
-print(data[["signingDateParsed", "created", "updated"]].head())
+
+print(data[["updated", "contracting"]].head())
+
